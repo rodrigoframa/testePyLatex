@@ -95,33 +95,33 @@ def generate_unique():
     doc.add_color(name="lightgray", model="gray", description="0.80")
 
     # Add statement table
-    with doc.create(LongTabu("X[l] X[2l] X[r] X[r] X[r]",
-                             row_height=1.5)) as data_table:
-        data_table.add_row(["date",
-                            "description",
-                            "debits($)",
-                            "credits($)",
-                            "balance($)"],
-                           mapper=bold,
-                           color="lightgray")
-        data_table.add_empty_row()
-        data_table.add_hline()
-        row = ["2016-JUN-01", "Test", "$100", "$1000", "-$900"]
-        for i in range(30):
-            if (i % 2) == 0:
-                data_table.add_row(row, color="lightgray")
-            else:
-                data_table.add_row(row)
+    # with doc.create(LongTabu("X[l] X[2l] X[r] X[r] X[r]",
+    #                          row_height=1.5)) as data_table:
+    #     data_table.add_row(["date",
+    #                         "description",
+    #                         "debits($)",
+    #                         "credits($)",
+    #                         "balance($)"],
+    #                        mapper=bold,
+    #                        color="lightgray")
+    #     data_table.add_empty_row()
+    #     data_table.add_hline()
+    #     row = ["2016-JUN-01", "Test", "$100", "$1000", "-$900"]
+    #     for i in range(30):
+    #         if (i % 2) == 0:
+    #             data_table.add_row(row, color="lightgray")
+    #         else:
+    #             data_table.add_row(row)
 
     doc.append(NewPage())
 
     # Add cheque images
-    with doc.create(LongTabu("X[c] X[c]")) as cheque_table:
-        cheque_file = os.path.join(os.path.dirname(__file__),
-                                   'chequeexample.png')
-        cheque = StandAloneGraphic(cheque_file, image_options="width=200px")
-        for i in range(0, 20):
-            cheque_table.add_row([cheque, cheque])
+    # with doc.create(LongTabu("X[c] X[c]")) as cheque_table:
+    #     cheque_file = os.path.join(os.path.dirname(__file__),
+    #                                'chequeexample.png')
+    #     cheque = StandAloneGraphic(cheque_file, image_options="width=200px")
+    #     for i in range(0, 20):
+    #         cheque_table.add_row([cheque, cheque])
 
     doc.generate_pdf("complex_report", clean_tex=False)
 
