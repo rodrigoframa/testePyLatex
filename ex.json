@@ -1,9 +1,9 @@
 {
     "id": "1",
     "ppraPai": "0",
-    "data": "09/02/2018",
     "dataEmissao": "12/11/2018",
     "titulo": "PPRA",
+    "data": "09/02/2018",
     "CNPJFilial": "3995515006793",
     "nomeEmpresa": "MATEUS SUPERMERCADOS",
     "nomeFilial": "MATEUS SUPERMERCADOS S.A. - PATIO NORTE",
@@ -20,10 +20,29 @@
     "atividade": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios  hipermercados e supermercados",
     "horaTrabalho": "7,20",
     "grauRisco": "2",
+    "empresa": {
+        "data": "09/02/2018",
+        "CNPJFilial": "3995515006793",
+        "nomeEmpresa": "MATEUS SUPERMERCADOS",
+        "nomeFilial": "MATEUS SUPERMERCADOS S.A. - PATIO NORTE",
+        "CNAE": "47113",
+        "logradouro": "EST DE SAO JOSE DE RIBAMAR KM0",
+        "numero": "S/N",
+        "complemento": " ",
+        "bairro": "SARAMANTA",
+        "cidade": "SAO LUIS",
+        "cep": "65110000",
+        "municipio": "SAO LUIS",
+        "uf": "",
+        "telefone": "( )21085082",
+        "atividade": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios  hipermercados e supermercados",
+        "horaTrabalho": "7,20",
+        "grauRisco": "2"
+    },
     "numFunc": "120",
     "qtdMasculino": "70",
     "qtdFeminino": "50",
-    "quadroFuncionarios": [
+    "quadroFuncionarios":   [
         {
             "funcao": "ACOUGUEIRO",
             "qtdMasculino": 3,
@@ -263,215 +282,148 @@
             "titulo": "PERFIL DA EMPRESA",
             "descricao": " ",
             "atividade": "Perfil da Empresa",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "QUADRO DE FUNCIONÁRIOS",
             "descricao": " ",
             "atividade": "Quadro de Funcionarios",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "OBJETIVO DO PPRA",
             "descricao": "\tO Programa de Prevenção de Riscos Ambientais - PPRA que atende à Portaria do Ministério do Trabalho e Emprego - MTE, no 3.214, de 08 de junho de 1978, em sua Norma Regulamentadora número nove (NR. 9), com redação dada pela Portaria No  25 do MTE, de 29 de dezembro de 1994, tem o objetivo da preservação da saúde e da integridade dos trabalhadores, através:\n\na) Melhorias na qualidade de vida de todos os trabalhadores desta empresa através da antecipação, reconhecimento, avaliações e das implementações de medidas de controle e divulgação dos dados levantados;\n\nb) Preservação da saúde e da integridade de todos os trabalhadores desta empresa;\n\nc) Atendimento às diretrizes da legislação vigente referente à Segurança e Higiene do Trabalho.\n",
             "atividade": "",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "DATA DO INÍCIO-ATUALIZAÇÃO DO PPRA",
             "descricao": " ",
             "atividade": "Responsavel pelo PPRA",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "ESTRUTURA DO PPRA",
             "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
             "atividade": "",
-            "tituloPai": {}
-        },
-        {
-            "titulo": "PLANEJAMENTO ANUAL",
-            "descricao": " ",
-            "atividade": "Acões",
-            "tituloPai": {
-                "titulo": "ESTRUTURA DO PPRA",
-                "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "METAS",
-            "descricao": "1ª. Avaliação minuciosa dos locais de trabalho (posto a posto), com vistas ao reconhecimento de eventuais riscos ambientais existentes;\n\n2ª Identificar os fatores de riscos ambientais e humanos que os agravam para elaboração de treinamentos específicos com objetivo de eliminação/controle;\n\n3ª Estabelecer parâmetros para avaliações médicas com perfis clínicos para exames complementares com fins de controles de exposição aos eventuais riscos, especialmente os químicos, físicos e biológicos, além das considerações necessárias com relação a riscos mecânicos (de acidentes) e ergonômicos;\n\n4ª Elaboração de relatórios descritivos das condições ambientais encontradas e suas variações conforme as tarefas realizadas e os riscos intrínsecos.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "PLANEJAMENTO ANUAL",
-                "descricao": " ",
-                "atividade": "Acões",
-                "tituloPai": {
-                    "titulo": "ESTRUTURA DO PPRA",
-                    "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
+            "tituloFilho": [
+                {
+                    "titulo": "PLANEJAMENTO ANUAL",
+                    "descricao": " ",
+                    "atividade": "Acões",
+                    "tituloFilho": [
+                        {
+                            "titulo": "METAS",
+                            "descricao": "1ª. Avaliação minuciosa dos locais de trabalho (posto a posto), com vistas ao reconhecimento de eventuais riscos ambientais existentes;\n\n2ª Identificar os fatores de riscos ambientais e humanos que os agravam para elaboração de treinamentos específicos com objetivo de eliminação/controle;\n\n3ª Estabelecer parâmetros para avaliações médicas com perfis clínicos para exames complementares com fins de controles de exposição aos eventuais riscos, especialmente os químicos, físicos e biológicos, além das considerações necessárias com relação a riscos mecânicos (de acidentes) e ergonômicos;\n\n4ª Elaboração de relatórios descritivos das condições ambientais encontradas e suas variações conforme as tarefas realizadas e os riscos intrínsecos.\n",
+                            "atividade": "",
+                            "tituloFilho": []
+                        },
+                        {
+                            "titulo": "PRIORIDADES",
+                            "descricao": "1ª.Controlar os riscos físicos existentes nos setores de peixaria e açougue. Conscientizarmos os colaboradores quanto ao uso dos equipamentos de proteção auditiva nos setores de açougue e peixaria.\n\n2ª. Manter o controle à exposição dos riscos físicos – temperaturas extremas nos setores de açougue, peixaria, frios/laticínios e padaria, bem como a entrega dos devidos EPI´s a fim de minimizar e/ou neutralizar os riscos existentes;\n\n3ª. Manter as máquinas e equipamentos em boas condições de uso nos diversos setores;\n\n4ª. Avaliação minuciosa dos locais de trabalho (posto a posto), com vistas ao reconhecimento de eventuais riscos ambientais existentes, elencando também os riscos ergonômicos e mecânicos (acidentes).\n",
+                            "atividade": "",
+                            "tituloFilho": []
+                        }
+                    ]
+                },
+                {
+                    "titulo": "ESTRATÉGIA E METODOLOGIA DE AÇÃO",
+                    "descricao": "As seguintes etapas são:\n\n Na Antecipação: Analisar os ambientes de trabalho, visando a introdução de sistemas de controle durante as fases de projeto, instalação, ampliação, modificação ou substituição de equipamentos ou processos, ou no caso de novas instalações;\n\n No Reconhecimento: Identificar os riscos ambientais que podem influenciar a saúde dos trabalhadores. Para isso, faz-se necessário um estudo sobre as matérias-primas, produtos e subprodutos, métodos e procedimentos de rotina, processos produtivos, instalações e equipamentos existentes. É a primeira avaliação qualitativa do ambiente de trabalho;\n\n Na Avaliação: Avaliar quantitativamente os riscos ambientais, através de medições de curto ou longo prazo nos ambientes de trabalho e a comparação, entre outras considerações, com os limites de tolerância.\n\n No Controle: Dimensionar em consideração os recursos técnicos e financeiros da empresa, sendo preferencialmente recomendados os controles de engenharia, ou seja, na fonte do risco, caso não seja possível, este controle deve ser no meio de propagação do risco e, em último caso, no trabalhador.\n",
                     "atividade": "",
-                    "tituloPai": {}
-                }
-            }
-        },
-        {
-            "titulo": "PRIORIDADES",
-            "descricao": "1ª.Controlar os riscos físicos existentes nos setores de peixaria e açougue. Conscientizarmos os colaboradores quanto ao uso dos equipamentos de proteção auditiva nos setores de açougue e peixaria.\n\n2ª. Manter o controle à exposição dos riscos físicos – temperaturas extremas nos setores de açougue, peixaria, frios/laticínios e padaria, bem como a entrega dos devidos EPI´s a fim de minimizar e/ou neutralizar os riscos existentes;\n\n3ª. Manter as máquinas e equipamentos em boas condições de uso nos diversos setores;\n\n4ª. Avaliação minuciosa dos locais de trabalho (posto a posto), com vistas ao reconhecimento de eventuais riscos ambientais existentes, elencando também os riscos ergonômicos e mecânicos (acidentes).\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "PLANEJAMENTO ANUAL",
-                "descricao": " ",
-                "atividade": "Acões",
-                "tituloPai": {
-                    "titulo": "ESTRUTURA DO PPRA",
-                    "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "FORMA DE REGISTRO, MANUTENÇÃO E DIVULGAÇÃO DE DADOS",
+                    "descricao": " \t Formas Registro:\n\nAs informações geradas em função deste documento, estão à disposição de qualquer empregado, bem como das autoridades fiscalizadoras, sindicais ou do Ministério do Trabalho e Emprego e, registradas e mantidas sobre a guarda da empresa, por um período mínimo de 20 (vinte) anos.\n\nO registro de todos os dados do PPRA estão mantidos e estruturados de forma a constituir um histórico técnico e administrativo do seu desenvolvimento, permitindo uma perfeita rastreabilidade dos dados.\n\n \tManutenção:\n\na)\tAvaliação Periódica do Programa - para verificar o andamento dos trabalhos e o cumprimento das metas estipuladas no cronograma.\nb)\tMonitoramento - para avaliar a eficiência do Programa e das medidas de controle implantadas.\nc)\tControle Médico - os resultados dos exames médicos serão instrumentos informativos importantes para a avaliação da eficácia do Programa.\n\n \tDivulgação de dados:\n\nSerá feita da seguinte forma:\n\na)\tTodas as informações referentes ao PPRA são divulgadas aos funcionários do empreendimento, através de reuniões e/ou diálogos de Segurança, ou ainda, por intermédio da CIPA ou de funcionário designado.\n.\nb)\tO Documento ficará à disposição dos trabalhadores interessados e da fiscalização do Ministério do Trabalho (MTE).\n",
                     "atividade": "",
-                    "tituloPai": {}
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "FORMA DE AVALIAÇÃO E PERIODICIDADE",
+                    "descricao": "A revisão deste programa será realizada através da Análise Global do PPRA quando serão avaliadas as metas, as prioridades e o cronograma de execução das ações previstas; também ocorrerá esta revisão sempre que houver necessidade de se realizarem ajustes ou modificações decorrentes de alterações nos processos, ambientes ou métodos de trabalho. As prioridades estão definidas no Cronograma de Ações.\nEste documento será revisto na análise global do PPRA para avaliação do seu desenvolvimento, sempre que necessário e pelo menos uma vez ao ano.\n",
+                    "atividade": "",
+                    "tituloFilho": []
                 }
-            }
-        },
-        {
-            "titulo": "ESTRATÉGIA E METODOLOGIA DE AÇÃO",
-            "descricao": "As seguintes etapas são:\n\n Na Antecipação: Analisar os ambientes de trabalho, visando a introdução de sistemas de controle durante as fases de projeto, instalação, ampliação, modificação ou substituição de equipamentos ou processos, ou no caso de novas instalações;\n\n No Reconhecimento: Identificar os riscos ambientais que podem influenciar a saúde dos trabalhadores. Para isso, faz-se necessário um estudo sobre as matérias-primas, produtos e subprodutos, métodos e procedimentos de rotina, processos produtivos, instalações e equipamentos existentes. É a primeira avaliação qualitativa do ambiente de trabalho;\n\n Na Avaliação: Avaliar quantitativamente os riscos ambientais, através de medições de curto ou longo prazo nos ambientes de trabalho e a comparação, entre outras considerações, com os limites de tolerância.\n\n No Controle: Dimensionar em consideração os recursos técnicos e financeiros da empresa, sendo preferencialmente recomendados os controles de engenharia, ou seja, na fonte do risco, caso não seja possível, este controle deve ser no meio de propagação do risco e, em último caso, no trabalhador.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "ESTRUTURA DO PPRA",
-                "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "FORMA DE REGISTRO, MANUTENÇÃO E DIVULGAÇÃO DE DADOS",
-            "descricao": " \t Formas Registro:\n\nAs informações geradas em função deste documento, estão à disposição de qualquer empregado, bem como das autoridades fiscalizadoras, sindicais ou do Ministério do Trabalho e Emprego e, registradas e mantidas sobre a guarda da empresa, por um período mínimo de 20 (vinte) anos.\n\nO registro de todos os dados do PPRA estão mantidos e estruturados de forma a constituir um histórico técnico e administrativo do seu desenvolvimento, permitindo uma perfeita rastreabilidade dos dados.\n\n \tManutenção:\n\na)\tAvaliação Periódica do Programa - para verificar o andamento dos trabalhos e o cumprimento das metas estipuladas no cronograma.\nb)\tMonitoramento - para avaliar a eficiência do Programa e das medidas de controle implantadas.\nc)\tControle Médico - os resultados dos exames médicos serão instrumentos informativos importantes para a avaliação da eficácia do Programa.\n\n \tDivulgação de dados:\n\nSerá feita da seguinte forma:\n\na)\tTodas as informações referentes ao PPRA são divulgadas aos funcionários do empreendimento, através de reuniões e/ou diálogos de Segurança, ou ainda, por intermédio da CIPA ou de funcionário designado.\n.\nb)\tO Documento ficará à disposição dos trabalhadores interessados e da fiscalização do Ministério do Trabalho (MTE).\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "ESTRUTURA DO PPRA",
-                "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "FORMA DE AVALIAÇÃO E PERIODICIDADE",
-            "descricao": "A revisão deste programa será realizada através da Análise Global do PPRA quando serão avaliadas as metas, as prioridades e o cronograma de execução das ações previstas; também ocorrerá esta revisão sempre que houver necessidade de se realizarem ajustes ou modificações decorrentes de alterações nos processos, ambientes ou métodos de trabalho. As prioridades estão definidas no Cronograma de Ações.\nEste documento será revisto na análise global do PPRA para avaliação do seu desenvolvimento, sempre que necessário e pelo menos uma vez ao ano.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "ESTRUTURA DO PPRA",
-                "descricao": "a)\tDocumento base do PPRA\n\nEsta primeira etapa consiste basicamente na implantação do PPRA, que é o apronto deste Documento-base, contendo a descrição das fases do Programa, os conceitos adotados e o Planejamento de Metas e Ações, que descreve os compromissos assumidos pela empresa, até que ocorra uma avaliação de riscos e/ou uma análise global do PPRA para avaliação do seu desenvolvimento e realização dos ajustes necessários e estabelecimento de novas metas e prioridades.\n\nb)\tAvaliação de riscos do PPRA\n\nConsiste basicamente nas avaliações quantitativas dos riscos ambientais, contendo: a identificação do setor, o número de trabalhadores, as funções, os agentes de risco, a identificação e localização das possíveis fontes geradoras, meios de propagação, o número de horas de exposição aos agentes de risco para cada função, os possíveis danos à saúde relacionados ao risco ambiental identificado, bem como a descrição das medidas de controle já existentes e as medidas de controle recomendadas.\n\nAs medidas de controle visam eliminar ou reduzir os riscos ambientais a índices que não comprometam a saúde física e mental do trabalhador, devendo ser apresentadas e discutidas na Comissão Interna de Prevenção de Acidentes - CIPA. A implementação das medidas de controle deve ser acompanhada e monitorada. Para isso, a empresa deverá designar uma pessoa ou uma comissão que se responsabilizará por tal tarefa, e que deverá estar formalmente identificada e qualificada.\n\nc)\tAnálise global do PPRA\n\nNesta etapa, será realizado um novo reconhecimento de riscos, conforme já descrito, para colaborar a efetividade das medidas de controle já implementadas, considerando os dados obtidos nas Avaliações de Riscos Ambientais realizadas e no Programa de Controle Médico de Saúde Ocupacional previsto na NR-7. A partir desta análise será elaborado um novo Planejamento de Metas e Ações criando, desta forma, mais um ciclo no Programa de Prevenção de Riscos Ambientais.\n",
-                "atividade": "",
-                "tituloPai": {}
-            }
+            ]
         },
         {
             "titulo": "DESENVOLVIMENTO DO PPRA",
             "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
             "atividade": "",
-            "tituloPai": {}
-        },
-        {
-            "titulo": "ANTECIPAÇÃO E RECONHECIMENTO DOS RISCOS AMBIENTAIS",
-            "descricao": " \tAntecipação.\n\nEssa etapa que compreende a análise de novos projetos, instalações, produtos, métodos ou processos de trabalho ou de modificação das já existentes. O objetivo desta etapa é a identificação dos riscos potenciais e a introdução das medidas de controle necessárias, antecipando-se à exposição aos riscos ambientais.\nForam elaboradas fichas de avaliação de acordo com cada atividade desenvolvida pelos trabalhadores objetivando a identificação dos agentes existentes, quantidade de trabalhadores expostos e medidas de controle.\n\n\n \tReconhecimento:\n\nEnvolve a identificação qualitativa e a explicitação dos riscos existentes nos ambientes de trabalho do empreendimento. As informações necessárias nesta etapa são:\n\n\uF0FC\tAgentes;\n\uF0FC\tFonte geradora;\n\uF0FC\tLocal da fonte geradora;\n\uF0FC\tTrajetórias e meio de propagação;\n\uF0FC\tFunção;\n\uF0FC\tNúmero de trabalhador exposto;\n\uF0FC\tTipo de exposição;\n\uF0FC\tTempo de exposição;\n\uF0FC\tAvaliação quantitativa;\n\uF0FC\tAvaliação qualitativa;\n\uF0FC\tLimite de tolerância (LT);\n\uF0FC\tDados existentes de comprometimento da saúde;\n\uF0FC\tOs possíveis danos à saúde relacionados aos riscos identificados.\n\uF0FC\tMedidas existentes;\n\uF0FC\tMedidas de controle propostas.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "DESENVOLVIMENTO DO PPRA",
-                "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "ESTABELECIMENTO DE PRIORIDADES E METAS DE AVALIAÇÕES E CONTROLE",
-            "descricao": "Foram elaboradas fichas de acordo com cada atividade desenvolvida pelos trabalhadores objetivando a identificação dos agentes existentes, quantidade de trabalhadores expostos e medidas de controle.\n\nForam considerados somente a exposição aos riscos a que os colaboradores pudessem estar realmente submetidos. A exposição aos riscos foram dimensionadas com base na portaria 3311/89 e a lei de sumula 364 do TST;\n\n\n•\tEventual – Até 30 minutos de exposição;\n•\tIntermitente – Até 06 horas e 30 minutos;\n•\tHabitual – Acima de 06 horas e 30 minutos.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "DESENVOLVIMENTO DO PPRA",
-                "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "AVALIAÇÃO DOS RISCOS E DA EXPOSIÇÃO DOS TRABALHADORES",
-            "descricao": " ",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "DESENVOLVIMENTO DO PPRA",
-                "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "MEDIDAS DE CONTROLE E AVALIAÇÃO DE SUA EFICÁCIA",
-            "descricao": " \tMedidas de Controle\n\nO “Responsável” pelo empreendimento seguirá as diretrizes da NR-9, que estabelecem que as medidas de controle dos Riscos Ambientais deverão ser adotadas, preferencialmente, na seguinte ordem de prioridade, logo após as formas de avaliações:\n•\tMedidas Coletivas (EPCs);\n•\tMedidas Administrativas e de Organização do Trabalho;\n•\tEquipamentos de Proteção Individual (EPIs).\n•\tSempre que for verificada uma ou mais das situações descritas a seguir, serão adotadas as Medidas de Controle propostas:\n•\tIdentificação, na fase de Antecipação, do risco potencial à saúde e constatação da natureza agressiva do agente;\n•\tConstatação, na fase de Reconhecimento, de risco evidente à saúde e da natureza agressiva do agente;\n•\tSempre que os resultados das avaliações quantitativas da exposição do trabalhador ao agente de risco exceder os limites de tolerância previstos na NR-15; ou, na ausência destes, os valores de limites de exposição ocupacional adotados pela ACGIH - American Conferenceof Governamental Industrial Hygienists; ou, ainda, aqueles limites que venham a ser estabelecidos em Negociações Coletivas de Trabalho, desde que sejam mais rigorosos do que os critérios técnicos legais estabelecidos;\n•\tQuando, através de Controle Médico da Saúde (PCMSO), ficar caracterizado o nexo causal entre os danos observados à saúde dos trabalhadores e a situação de trabalho à qual eles ficam exposto.\n\n\n \tMedidas Coletivas de Controle.\n\nO estudo, o desenvolvimento e a implantação das medidas coletivas de controle deverão obedecer à seguinte hierarquia:\n•\tMedidas que eliminem ou neutralizem a utilização ou a formação dos agentes de risco considerados prejudiciais à saúde – Controle na Fonte;\n•\tMedidas que previnam a liberação ou a disseminação dos agentes de risco no ambiente de trabalho – Controle na Trajetória;\n•\tMedidas que reduzam os níveis de concentração ou a intensidade dos agentes de risco no ambiente de trabalho – Controle no Ambiente;\n•\tMedidas que reduzam os níveis de exposição dos funcionários aos agentes de risco presentes no ambiente de trabalho, através do uso de Equipamentos de Proteção Individuais apropriados – Controle através de EPIs.\n\nNa elaboração deste Programa, foi feito o Reconhecimento dos Riscos Ambientais, bem como a Avaliação Qualitativa e Quantitativa (esta quando necessária) em todos os postos de trabalho por grupo homogêneo, seguindo-se as recomendações e os procedimentos técnicos estabelecidos na Legislação vigente para a medição de cada agente ambiental identificado.\n\nConvém salientar que, durante o processo de análise das medidas, outras soluções poderão ser encontradas, além destas que são sugeridas. Deste modo, toda adoção de medida de controle coletiva deverá ser precedida de um estudo mais profundo de sua viabilidade técnica e econômica, bem como de uma avaliação periódica dos agentes ambientais nos locais de trabalho.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "DESENVOLVIMENTO DO PPRA",
-                "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "MONITORAMENTO DA EXPOSIÇÃO AOS RISCOS",
-            "descricao": "Para o monitoramento da exposição dos trabalhadores e das medidas de controle, deve ser realizada uma avaliação sistemática e repetitiva da exposição a um dado risco, visando à introdução ou modificação das medidas de controle, sempre que necessário.\n\nPara atender aos esses requisitos, enumeramos abaixo outras medidas da empresa:\n\n•\tSempre que houver indicativo de alteração em exames periódicos, mudança de função e demissional, reavaliar os riscos, o tempo de exposição, a forma de interação, etc;\n•\tSubstituição de EPI existente por outro de maior eficiência, em função de indicativo de alteração sofrida por colaborador e recomendado pelo setor médico da empresa;\n•\tUsar como alternativa primeira o uso de EPCs em substituição ao EPI.\n\nIniciar ações corretivas e preventivas de controle para as exposições acima do Nível de Ação, de forma a diminuir a probabilidade de que as exposições a agentes ambientais ultrapassem os limites de exposição. As ações devem incluir o monitoramento periódico da exposição, a informação aos trabalhadores e o controle médico.\n",
-            "atividade": "",
-            "tituloPai": {
-                "titulo": "DESENVOLVIMENTO DO PPRA",
-                "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
-                "atividade": "",
-                "tituloPai": {}
-            }
-        },
-        {
-            "titulo": "FICHA DE AVALIAÇÃO DE EXPOSIÇÃO",
-            "descricao": " ",
-            "atividade": "Ficha de Risco",
-            "tituloPai": {
-                "titulo": "DESENVOLVIMENTO DO PPRA",
-                "descricao": "O PPRA foi elaborado com base no desenvolvimento das etapas que seguem um programa de Higiene Ocupacional, que consiste em antecipação, reconhecimento, avaliação, monitoramento e controle dos riscos ambientais existentes no ambiente de trabalho.\n\nA amplitude e a complexidade do PPRA dependerão da identificação dos riscos ambientais encontrados na fase da antecipação ou do reconhecimento. Caso não sejam identificados riscos ambientais, o PPRA se resumirá a fase de antecipação dos riscos, registro e divulgação dos dados encontrados.  \n",
-                "atividade": "",
-                "tituloPai": {}
-            }
+            "tituloFilho": [
+                {
+                    "titulo": "ANTECIPAÇÃO E RECONHECIMENTO DOS RISCOS AMBIENTAIS",
+                    "descricao": " \tAntecipação.\n\nEssa etapa que compreende a análise de novos projetos, instalações, produtos, métodos ou processos de trabalho ou de modificação das já existentes. O objetivo desta etapa é a identificação dos riscos potenciais e a introdução das medidas de controle necessárias, antecipando-se à exposição aos riscos ambientais.\nForam elaboradas fichas de avaliação de acordo com cada atividade desenvolvida pelos trabalhadores objetivando a identificação dos agentes existentes, quantidade de trabalhadores expostos e medidas de controle.\n\n\n \tReconhecimento:\n\nEnvolve a identificação qualitativa e a explicitação dos riscos existentes nos ambientes de trabalho do empreendimento. As informações necessárias nesta etapa são:\n\n\tAgentes;\n\tFonte geradora;\n\tLocal da fonte geradora;\n\tTrajetórias e meio de propagação;\n\tFunção;\n\tNúmero de trabalhador exposto;\n\tTipo de exposição;\n\tTempo de exposição;\n\tAvaliação quantitativa;\n\tAvaliação qualitativa;\n\tLimite de tolerância (LT);\n\tDados existentes de comprometimento da saúde;\n\tOs possíveis danos à saúde relacionados aos riscos identificados.\n\tMedidas existentes;\n\tMedidas de controle propostas.\n",
+                    "atividade": "",
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "ESTABELECIMENTO DE PRIORIDADES E METAS DE AVALIAÇÕES E CONTROLE",
+                    "descricao": "Foram elaboradas fichas de acordo com cada atividade desenvolvida pelos trabalhadores objetivando a identificação dos agentes existentes, quantidade de trabalhadores expostos e medidas de controle.\n\nForam considerados somente a exposição aos riscos a que os colaboradores pudessem estar realmente submetidos. A exposição aos riscos foram dimensionadas com base na portaria 3311/89 e a lei de sumula 364 do TST;\n\n\n•\tEventual – Até 30 minutos de exposição;\n•\tIntermitente – Até 06 horas e 30 minutos;\n•\tHabitual – Acima de 06 horas e 30 minutos.\n",
+                    "atividade": "",
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "AVALIAÇÃO DOS RISCOS E DA EXPOSIÇÃO DOS TRABALHADORES",
+                    "descricao": " ",
+                    "atividade": "",
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "MEDIDAS DE CONTROLE E AVALIAÇÃO DE SUA EFICÁCIA",
+                    "descricao": " \tMedidas de Controle\n\nO “Responsável” pelo empreendimento seguirá as diretrizes da NR-9, que estabelecem que as medidas de controle dos Riscos Ambientais deverão ser adotadas, preferencialmente, na seguinte ordem de prioridade, logo após as formas de avaliações:\n•\tMedidas Coletivas (EPCs);\n•\tMedidas Administrativas e de Organização do Trabalho;\n•\tEquipamentos de Proteção Individual (EPIs).\n•\tSempre que for verificada uma ou mais das situações descritas a seguir, serão adotadas as Medidas de Controle propostas:\n•\tIdentificação, na fase de Antecipação, do risco potencial à saúde e constatação da natureza agressiva do agente;\n•\tConstatação, na fase de Reconhecimento, de risco evidente à saúde e da natureza agressiva do agente;\n•\tSempre que os resultados das avaliações quantitativas da exposição do trabalhador ao agente de risco exceder os limites de tolerância previstos na NR-15; ou, na ausência destes, os valores de limites de exposição ocupacional adotados pela ACGIH - American Conferenceof Governamental Industrial Hygienists; ou, ainda, aqueles limites que venham a ser estabelecidos em Negociações Coletivas de Trabalho, desde que sejam mais rigorosos do que os critérios técnicos legais estabelecidos;\n•\tQuando, através de Controle Médico da Saúde (PCMSO), ficar caracterizado o nexo causal entre os danos observados à saúde dos trabalhadores e a situação de trabalho à qual eles ficam exposto.\n\n\n \tMedidas Coletivas de Controle.\n\nO estudo, o desenvolvimento e a implantação das medidas coletivas de controle deverão obedecer à seguinte hierarquia:\n•\tMedidas que eliminem ou neutralizem a utilização ou a formação dos agentes de risco considerados prejudiciais à saúde – Controle na Fonte;\n•\tMedidas que previnam a liberação ou a disseminação dos agentes de risco no ambiente de trabalho – Controle na Trajetória;\n•\tMedidas que reduzam os níveis de concentração ou a intensidade dos agentes de risco no ambiente de trabalho – Controle no Ambiente;\n•\tMedidas que reduzam os níveis de exposição dos funcionários aos agentes de risco presentes no ambiente de trabalho, através do uso de Equipamentos de Proteção Individuais apropriados – Controle através de EPIs.\n\nNa elaboração deste Programa, foi feito o Reconhecimento dos Riscos Ambientais, bem como a Avaliação Qualitativa e Quantitativa (esta quando necessária) em todos os postos de trabalho por grupo homogêneo, seguindo-se as recomendações e os procedimentos técnicos estabelecidos na Legislação vigente para a medição de cada agente ambiental identificado.\n\nConvém salientar que, durante o processo de análise das medidas, outras soluções poderão ser encontradas, além destas que são sugeridas. Deste modo, toda adoção de medida de controle coletiva deverá ser precedida de um estudo mais profundo de sua viabilidade técnica e econômica, bem como de uma avaliação periódica dos agentes ambientais nos locais de trabalho.\n",
+                    "atividade": "",
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "MONITORAMENTO DA EXPOSIÇÃO AOS RISCOS",
+                    "descricao": "Para o monitoramento da exposição dos trabalhadores e das medidas de controle, deve ser realizada uma avaliação sistemática e repetitiva da exposição a um dado risco, visando à introdução ou modificação das medidas de controle, sempre que necessário.\n\nPara atender aos esses requisitos, enumeramos abaixo outras medidas da empresa:\n\n•\tSempre que houver indicativo de alteração em exames periódicos, mudança de função e demissional, reavaliar os riscos, o tempo de exposição, a forma de interação, etc;\n•\tSubstituição de EPI existente por outro de maior eficiência, em função de indicativo de alteração sofrida por colaborador e recomendado pelo setor médico da empresa;\n•\tUsar como alternativa primeira o uso de EPCs em substituição ao EPI.\n\nIniciar ações corretivas e preventivas de controle para as exposições acima do Nível de Ação, de forma a diminuir a probabilidade de que as exposições a agentes ambientais ultrapassem os limites de exposição. As ações devem incluir o monitoramento periódico da exposição, a informação aos trabalhadores e o controle médico.\n",
+                    "atividade": "",
+                    "tituloFilho": []
+                },
+                {
+                    "titulo": "FICHA DE AVALIAÇÃO DE EXPOSIÇÃO",
+                    "descricao": " ",
+                    "atividade": "Ficha de Risco",
+                    "tituloFilho": []
+                }
+            ]
         },
         {
             "titulo": "QUADRO DEMONSTRATIVO DE EPI's",
             "descricao": " ",
             "atividade": "Quadro de EPIs",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "REGISTRO DE DADOS E INFORMAÇÃO",
             "descricao": "8.1 - REGISTROS DE DADOS\n\nO Registro da análise global do PPRA será feito da seguinte forma:\na)\tFazer o registro de dados atualizados, estruturado de forma a constituir um histórico técnico e administrativo do PPRA;\nb)\tManter este registro por um período de no mínimo 20 anos;\nc)\tO registro de dados deverá estar sempre disponível aos colaboradores interessados ou seus representantes e para as autoridades competentes.\n\n8.2 - INFORMAÇÕES\n\n-\tOs colaboradores Interessados terão o direito de apresentar propostas e receber informações e orientações a fim de assegurar a proteção aos riscos ambientais identificados na execução do PPRA e da sua análise global;\n\n-\tO empregador deverá sempre informar aos colaboradores de maneira apropriada e suficientemente clara sobre os riscos ambientais que possam originar-se nos locais de trabalho bem como, sobre os meios disponíveis para prevenir, mitigar ou até mesmo, erradicá-los, visando a proteção dos mesmos;\n\n-\tSempre que vários colaboradores realizarem simultaneamente atividades no mesmo local de trabalho ou bem próximas umas das outras, deverão executar ações integradas para aplicar as medidas previstas no PPRA e na sua análise global visando à proteção de todos quanto à exposição dos mesmos aos riscos ambientais reconhecidamente gerados;\n\n-\tO empregador deverá garantir, na ocorrência de riscos ambientais nos locais de trabalho que coloquem em situação de grave e iminente risco, a integridade física e/ou psíquica dos um ou mais dos seus colaboradores, que os mesmos possam interrompam de imediato as suas atividades, comunicando o fato ao superior hierárquico direto para as devidas providências.\n",
             "atividade": "",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "OUTRAS RECOMENDAÇÕES-INFORMAÇÕES",
-            "descricao": "Construção/sinalização de saídas de emergências com adoção de procedimentos para situações de emergências, treinando os seus colaboradores quanto a esses aspectos emergenciais. Deverá também fomentar a realização de palestras de segurança e fazer reciclagem dos mesmos quanto à utilização de extintores para combate a princípios de incêndios;\n\nA iluminação geral deve ser uniformemente distribuída e difusa evitando ofuscamento, reflexos incômodos, sombras e contrastes excessivos;\n\nA Ergonomia ou Engenharia Humana é definida como o estudo científico das relações entre o homem e seu ambiente de trabalho. O termo, ambiente do trabalho é utilizado de uma forma mais global, incluindo também equipamentos, aparelhos, ferramentas, materiais, métodos de trabalho e a própria organização do trabalho;\n\nPara os locais em que as atividades contemplem alguns riscos ergonômicos, como, por exemplo, postura inadequada, monotonia / repetitividade, levantamento e transporte manual de peso tais como fiscal de salão, operador de caixa, auxiliar de caixa, auxiliar de depósito, administrativo. Recomenda-se:\n\n\uF0D8\tImplantação de placas de sinalização e placas educativas nas áreas que ofereçam esses riscos;\n\uF0D8\tAcesso sempre livre aos extintores de combate a incêndio. Os mesmos deverão receber sinalização e vistoria periodicamente regular quanto aos seus respectivos prazos de validade de maneira que os mesmos possam a qualquer momento serem utilizados adequada e corretamente, se necessário for;\n\uF0D8\tConfecção e utilização de placas com informações de uso obrigatório de EPIs, nas atividades operacionais desenvolvidas na empresa;\n\uF0D8\tEspaço adequado para livre movimentação do operador de checkout e colocação de cadeira, a fim de permitir a alternância do trabalho na posição em pé com o trabalho na posição sentada;\n\uF0D8\tAcompanhamento do cronograma de ação pela CIPA e Técnico em Segurança  do trabalho responsável de tal maneira que, a cada reunião ordinária, seja avaliado o cumprimento dos prazos e os resultados das medidas propostas;\n\uF0D8\tO PPRA é um programa de ação contínua, não é apenas um documento. O documento-base, previsto na estrutura do PPRA, e que deve estar à disposição da fiscalização, é um roteiro das ações a serem empreendidas para atingir as metas do Programa.\n\uF0D8\tO PPRA e o PCMSO sendo programas de caráter permanente, eles devem coexistir nas empresas e instituições, com as fases de implementação articuladas. No primeiro ano, entretanto, o PPRA deverá estar na frente para servir de subsídio ao PCMSO;\n\uF0D8\tPara efeitos do PPRA, os riscos ambientais são os agentes físicos, químicos e biológicos existentes nos ambientes de trabalho que, em função de sua natureza, concentração ou intensidade e tempo de exposição, são capazes de causar Os possíveis danos à saúde relacionados aos riscos identificados. dos trabalhadores;\n\uF0D8\tSistema de aterramento de equipamentos elétricos;\n\uF0D8\tInstalação, funcionamento e manutenção do sistema de climatização, inclusive em salas de treinamentos;\n\uF0D8\tDemarcação e sinalizações de segurança do trabalho nas dependências da unidade.\n",
+            "descricao": "Construção/sinalização de saídas de emergências com adoção de procedimentos para situações de emergências, treinando os seus colaboradores quanto a esses aspectos emergenciais. Deverá também fomentar a realização de palestras de segurança e fazer reciclagem dos mesmos quanto à utilização de extintores para combate a princípios de incêndios;\n\nA iluminação geral deve ser uniformemente distribuída e difusa evitando ofuscamento, reflexos incômodos, sombras e contrastes excessivos;\n\nA Ergonomia ou Engenharia Humana é definida como o estudo científico das relações entre o homem e seu ambiente de trabalho. O termo, ambiente do trabalho é utilizado de uma forma mais global, incluindo também equipamentos, aparelhos, ferramentas, materiais, métodos de trabalho e a própria organização do trabalho;\n\nPara os locais em que as atividades contemplem alguns riscos ergonômicos, como, por exemplo, postura inadequada, monotonia / repetitividade, levantamento e transporte manual de peso tais como fiscal de salão, operador de caixa, auxiliar de caixa, auxiliar de depósito, administrativo. Recomenda-se:\n\n\tImplantação de placas de sinalização e placas educativas nas áreas que ofereçam esses riscos;\n\tAcesso sempre livre aos extintores de combate a incêndio. Os mesmos deverão receber sinalização e vistoria periodicamente regular quanto aos seus respectivos prazos de validade de maneira que os mesmos possam a qualquer momento serem utilizados adequada e corretamente, se necessário for;\n\tConfecção e utilização de placas com informações de uso obrigatório de EPIs, nas atividades operacionais desenvolvidas na empresa;\n\tEspaço adequado para livre movimentação do operador de checkout e colocação de cadeira, a fim de permitir a alternância do trabalho na posição em pé com o trabalho na posição sentada;\n\tAcompanhamento do cronograma de ação pela CIPA e Técnico em Segurança  do trabalho responsável de tal maneira que, a cada reunião ordinária, seja avaliado o cumprimento dos prazos e os resultados das medidas propostas;\n\tO PPRA é um programa de ação contínua, não é apenas um documento. O documento-base, previsto na estrutura do PPRA, e que deve estar à disposição da fiscalização, é um roteiro das ações a serem empreendidas para atingir as metas do Programa.\n\tO PPRA e o PCMSO sendo programas de caráter permanente, eles devem coexistir nas empresas e instituições, com as fases de implementação articuladas. No primeiro ano, entretanto, o PPRA deverá estar na frente para servir de subsídio ao PCMSO;\n\tPara efeitos do PPRA, os riscos ambientais são os agentes físicos, químicos e biológicos existentes nos ambientes de trabalho que, em função de sua natureza, concentração ou intensidade e tempo de exposição, são capazes de causar Os possíveis danos à saúde relacionados aos riscos identificados. dos trabalhadores;\n\tSistema de aterramento de equipamentos elétricos;\n\tInstalação, funcionamento e manutenção do sistema de climatização, inclusive em salas de treinamentos;\n\tDemarcação e sinalizações de segurança do trabalho nas dependências da unidade.\n",
             "atividade": "",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "A TODOS OS COLABORADORES",
             "descricao": "10.1 - GENERALIDADES\n\n1ª - Cada empregado é responsável pela sua própria segurança;\n\n2ª - Ande – não corra – dentro da empresa e locais de trabalho. Desça e suba as escadas devagar e segure o corrimão;\n\n3ª - Mantenha seu local de trabalho sempre limpo e em ordem. Deposite o lixo em recipientes apropriados;\n\n4ª - Conserve as passagens, corredores e escadas desobstruídas;\n\n5ª - Sempre que for necessário alcançar lugares altos, use uma escada;\n\n6ª - Aprenda a localização dos extintores de incêndio e como manuseá-los. Não os retire do lugar e mantenha livre e desimpedida a área destinada ao aparelho;\n\n7ª - Qualquer anormalidade com os extintores de incêndio deve ser comunicada ao Técnico em Segurança do Trabalho da empresa;\n\n8ª - Comunique qualquer acidente na hora, por mais insignificante que seja. Pequenos ferimentos podem dar origem a graves infecções. Procure imediatamente a gerência;\n\n9ª - Não remova, nem permita que outras pessoas extraiam corpos estranhos dos seus olhos. Procure o Ambulatório Médico;\n\n10ª - Fume somente em locais permitidos;\n\n11ª - Não ingira bebidas alcoólicas antes de ir para o trabalho e nem as tome durante o trabalho.\n",
             "atividade": "",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "HABILITAÇÃO DO DOCUMENTO",
             "descricao": " ",
             "atividade": "Assinatura dos Técnicos",
-            "tituloPai": {}
+            "tituloFilho": []
         },
         {
             "titulo": "ANEXOS",
             "descricao": " ",
             "atividade": "",
-            "tituloPai": {}
+            "tituloFilho": []
         }
     ],
     "fichaExposicao": [

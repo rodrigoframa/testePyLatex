@@ -1,0 +1,288 @@
+{
+  "id": "1",
+  "ppraPai": "0",
+  "data": "09/02/2018",
+  "dataEmissao": "07/12/2018",
+  "titulo": "PPRA",
+  "CNPJFilial": "3995515006793",
+  "nomeEmpresa": "MATEUS SUPERMERCADOS",
+  "nomeFilial": "MATEUS SUPERMERCADOS S.A. - PATIO NORTE",
+  "CNAE": "47113",
+  "logradouro": "EST DE SAO JOSE DE RIBAMAR KM0",
+  "numero": "S/N",
+  "complemento": " ",
+  "bairro": "SARAMANTA",
+  "cidade": "SAO LUIS",
+  "cep": "65110000",
+  "municipio": "SAO LUIS",
+  "uf": "",
+  "telefone": "( )21085082",
+  "atividade": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios  hipermercados e supermercados",
+  "horaTrabalho": "7,20",
+  "grauRisco": "2",
+  "numFunc": "123",
+  "qtdMasculino": "71",
+  "qtdFeminino": "52",
+  "quadroFuncionarios": [
+    {
+      "funcao": "ACOUGUEIRO",
+      "qtdMasculino": 3,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "APRENDIZ",
+      "qtdMasculino": 1,
+      "qtdFeminino": 2
+    },
+    {
+      "funcao": "ASSISTENTE ADMINISTRATIVO",
+      "qtdMasculino": 0,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "ASSISTENTE DE CAIXA GERAL",
+      "qtdMasculino": 0,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "AUXILIAR DE ACOUGUE",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "AUXILIAR DE CPD",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "AUXILIAR DE DEPOSITO",
+      "qtdMasculino": 2,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "AUXILIAR DE ELETRO",
+      "qtdMasculino": 2,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "AUXILIAR DE LOJA I",
+      "qtdMasculino": 8,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "AUXILIAR DE LOJA II",
+      "qtdMasculino": 6,
+      "qtdFeminino": 21
+    },
+    {
+      "funcao": "AUXILIAR DE PRODUCAO",
+      "qtdMasculino": 2,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "AUXILIAR DE SERVICOS GERAIS",
+      "qtdMasculino": 3,
+      "qtdFeminino": 3
+    },
+    {
+      "funcao": "AUXILIAR ESTACIONAMENTO",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "BALCONISTA",
+      "qtdMasculino": 0,
+      "qtdFeminino": 3
+    },
+    {
+      "funcao": "CONFERENTE",
+      "qtdMasculino": 4,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "CONSULTOR DE VENDA",
+      "qtdMasculino": 5,
+      "qtdFeminino": 2
+    },
+    {
+      "funcao": "FISCAL DE CAIXA",
+      "qtdMasculino": 0,
+      "qtdFeminino": 3
+    },
+    {
+      "funcao": "FISCAL DE PREV DE PERDAS",
+      "qtdMasculino": 5,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "FORNEIRO",
+      "qtdMasculino": 2,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "GERENTE DE ACOUGUE",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "GERENTE DE ELETRO",
+      "qtdMasculino": 2,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "GERENTE DE FRENTE DE LOJA",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "GERENTE DE FRIOS E LATICINIOS",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "GERENTE DE HORTIFRUTI",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "GERENTE DE PADARIA",
+      "qtdMasculino": 0,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "GERENTE DE REPOSICAO",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "PEIXEIRO",
+      "qtdMasculino": 1,
+      "qtdFeminino": 1
+    },
+    {
+      "funcao": "REPOSITOR",
+      "qtdMasculino": 17,
+      "qtdFeminino": 11
+    },
+    {
+      "funcao": "SUBGERENTE DE ELETRO",
+      "qtdMasculino": 1,
+      "qtdFeminino": 0
+    },
+    {
+      "funcao": "SUBGERENTE DE LOJA",
+      "qtdMasculino": 1,
+      "qtdFeminino": 1
+    }
+  ],
+  "planejamentoAcoes": [
+    {
+      "prazo": "janeiro",
+      "acao": "Divulgação do PPRA",
+      "metas": [
+        "Divulgar o PPRA ou análise global a todos os colaboradores"
+      ]
+    },
+    {
+      "prazo": "fevereiro",
+      "acao": "Implantar Programa Ergonômico",
+      "metas": [
+        "Utilizar cadeiras com ajuste de altura e encosto",
+        "treinar os operadores de checkout em ergonomia",
+        "Realizar periodicamente inspeção nas cadeiras, mesas e checkouts"
+      ]
+    },
+    {
+      "prazo": "março",
+      "acao": "NR 10 - Segurança em Inst. e Serv. em Eletricidade",
+      "metas": [
+        "Realizar treinamento de reciclagem a todos os colaboradores de manutenção elétrica",
+        "Manter sinalizados todos os sistemas elétricos",
+        "Realizar inspeções roteiras nos sistemas elétricos"
+      ]
+    },
+    {
+      "prazo": "abril",
+      "acao": "NR 35 - Trabalho em Altura",
+      "metas": [
+        "Treinar colaboradores que realizam trabalho em altura"
+      ]
+    },
+    {
+      "prazo": "maio",
+      "acao": "NR 12 - Segurança no Trabalho em Máquinas e Equip.",
+      "metas": [
+        "Treinamento de NR 12 para colaboradores que trabalham com máquinas e equipamentos",
+        "Realizar inspeções em máquinas e equipamentos periodicamente",
+        "Realizar manutenções preventivas em máquinas e equipamentos"
+      ]
+    },
+    {
+      "prazo": "junho",
+      "acao": "Comissão Interna de Prevenção de Acidentes - CIPA",
+      "metas": [
+        "Realizar processo (eleição, posse, treinamento) de CIPA, conforme NR 05"
+      ]
+    },
+    {
+      "prazo": "julho",
+      "acao": "NR 11 - TMAMM",
+      "metas": [
+        "Realizar treinamento de Transporte, Movimentação, Armazenagem e Manuseio de Materiais"
+      ]
+    },
+    {
+      "prazo": "setembro",
+      "acao": "NR 06 - Equipamento de Proteção Individual",
+      "metas": [
+        "Orientar os colaboradores quanto ao uso, guarda e conservação de EPI"
+      ]
+    },
+    {
+      "prazo": "outubro",
+      "acao": "Semana Interna de Prevenção de Acidentes do Trab.",
+      "metas": [
+        "Realizar palestras para colaboradores com temas relacionados à Saúde e Segurança",
+        "Estabelecer gincanas entre os membros da CIPA para a promoção da Saúde e Segruança"
+      ]
+    },
+    {
+      "prazo": "outubro",
+      "acao": "Direito de Saber e Recusa ",
+      "metas": [
+        "Treinamento de Direito de Saber e Recusa, conforme NR 09"
+      ]
+    }
+  ],
+  "profissionais": [
+    {
+      "nome": "ADONAY COSTA FREITAS",
+      "telefone": "(98)98246-8289",
+      "numConselho": "MTE-MA 0004373",
+      "titulo": "Técnico de Segurança do Trabalho",
+      "responsavel": "1"
+    },
+    {
+      "nome": "CARLOS ALBERTO MONTEIRO DUARTE",
+      "telefone": "(98)98726-1333",
+      "numConselho": "CREA-MA 9398",
+      "titulo": "Engenheiro de Seguranca do Trabalho",
+      "responsavel": "0"
+    }
+  ],
+  "titulosPPRA": [
+    {
+      "titulo": "PERFIL DA EMPRESA",
+      "descricao": " ",
+      "atividade": "Perfil da Empresa",
+      "tituloFilho": []
+    },
+    {
+      "titulo": "QUADRO DE FUNCIONÁRIOS",
+      "descricao": " ",
+      "atividade": "Quadro de Funcionarios",
+      "tituloFilho": []
+    },
+    {
+      "titulo": "OBJETIVO DO PPRA",
+      "descricao": "	O Programa de Prevenção de Riscos Ambientais - PPRA que atende à Portaria do Ministério do Trabalho e Emprego - MTE, no 3.214, de 08 de junho de 1978, em sua Norma Regulamentadora número nove (NR. 9), com redação dada pela Portaria No  25 do MTE, de 29 de dezembro de 1994, tem o objetivo da preservação da saúde e da integridade dos trabalhadores, através:

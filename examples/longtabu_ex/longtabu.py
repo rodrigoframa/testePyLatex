@@ -21,7 +21,7 @@ def genenerate_longtabu():
         data_table.end_table_header()
         data_table.add_row(["Prov", "Num", "CurBal", "IntPay", "Total",
                             "IntR"])
-        row = ["PA", "9", "$100", "%10", "$1000", "Test"]
+        row = ["PDADASDASDSADSADSADASDASDSADASDASA", "9", "$100", "%10", "$1000", "Test"]
         for i in range(50):
             data_table.add_row(row)
 

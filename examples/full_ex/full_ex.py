@@ -8,7 +8,7 @@ import os
 if __name__ == '__main__':
     image_filename = os.path.join(os.path.dirname(__file__), 'kitten.jpg')
 
-    geometry_options = {"tmargin": "1cm", "lmargin": "10cm"}
+    geometry_options = {"tmargin": "1cm", "lmargin": "10cm", "includeheadfoot": True}
     doc = Document(geometry_options=geometry_options)
 
     with doc.create(Section('The simple stuff')):

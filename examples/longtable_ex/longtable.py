@@ -25,8 +25,10 @@ def genenerate_longtabu():
             data_table.add_hline()
             data_table.end_table_last_footer()
             row = ["Content1", "9", "Longer String"]
-            for i in range(150):
+            for i in range(50):
                 data_table.add_row(row)
+            for i in range(50):
+                data_table.add_row(["dusahdasuhdsha", "sauydhasdh", "auihduaduhs"])
 
     doc.generate_pdf("longtable", clean_tex=False)
 
