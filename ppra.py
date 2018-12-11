@@ -16,8 +16,8 @@ class Ppra(Document):
         self.packages.append(Package('helvet'))
         # \renewcommand{\familydefault}{\sfdefault}
         self.packages.append(Command("renewcommand",
-                             arguments=[NoEscape(r"\familydefault"),NoEscape(r"\sfdefault")]))
-            
+                                     arguments=[NoEscape(r"\familydefault"), NoEscape(r"\sfdefault")]))
+    
     def gera_cabecalho(self, json_ppra):
         header = PageStyle("header")
         # Create left header
@@ -54,7 +54,7 @@ class Ppra(Document):
             self.append("São Luís")
             self.append(LineBreak())
             self.append("Novembro/2018")
-
+    
     def quadro_planejamento(self, planejamento_acoes):
         with self.create(LongTabu("|X[1,l]|X[3,l]|X[6,l]|")) as tabela_planejamento:
             tabela_planejamento.add_hline()
@@ -73,12 +73,12 @@ class Ppra(Document):
                 if not len(metas):
                     continue
                 col_meta = MultiRow(len(metas), data=acao['prazo'].capitalize())
-                row = [col_meta, acao['acao'], '1. '+metas[0]]
+                row = [col_meta, acao['acao'], '1. ' + metas[0]]
                 tabela_planejamento.add_row(row)
                 for meta in metas[1:]:
-                    tabela_planejamento.add_row(('', '', (str(metas.index(meta)+1)+'. '+meta)))
+                    tabela_planejamento.add_row(('', '', (str(metas.index(meta) + 1) + '. ' + meta)))
                 tabela_planejamento.add_hline()
-                
+    
     def quadro_epis(self, fichas_exposicao):
         with self.create(LongTabu("|X[l]|X[l]|")) as tabela_epi:
             tabela_epi.add_hline()
@@ -105,7 +105,8 @@ class Ppra(Document):
     def quadro_funcionarios(self, quadro_funcionarios, total_masc, total_fem, total_fun):
         with self.create(LongTabu("|X[3,c]|X[c]|X[c]|")) as tabela_funcionarios:
             tabela_funcionarios.add_hline()
-            tabela_funcionarios.add_row((MultiRow(2, data=bold('Função')), MultiColumn(2, align='c|', data=bold('Número de Funcionários'))))
+            tabela_funcionarios.add_row(
+                (MultiRow(2, data=bold('Função')), MultiColumn(2, align='c|', data=bold('Número de Funcionários'))))
             tabela_funcionarios.add_hline(2, 3)
             tabela_funcionarios.add_row(('', bold('Masculino'), bold('Feminino')))
             tabela_funcionarios.end_table_header()
@@ -113,7 +114,8 @@ class Ppra(Document):
             tabela_funcionarios.add_hline()
             tabela_funcionarios.end_table_footer()
             tabela_funcionarios.add_hline()
-            tabela_funcionarios.add_row((MultiRow(2, data=bold('Total Funcionários')), bold(total_masc), bold(total_fem)))
+            tabela_funcionarios.add_row(
+                (MultiRow(2, data=bold('Total Funcionários')), bold(total_masc), bold(total_fem)))
             tabela_funcionarios.add_hline(2, 3)
             tabela_funcionarios.add_row(('', MultiColumn(2, align='c|', data=bold(total_fun))))
             tabela_funcionarios.add_hline()
@@ -122,61 +124,66 @@ class Ppra(Document):
                 row = [funcao['funcao'], funcao['qtdMasculino'], funcao['qtdFeminino']]
                 tabela_funcionarios.add_hline()
                 tabela_funcionarios.add_row(row)
-
+    
     def quadro_fichas(self, fichas_exposicao):
         for ficha in fichas_exposicao:
-            with self.create(LongTabu("|X[3,l]|X[3,l]|X[4,l]|")) as table_fichas:
-                table_fichas.add_row((MultiColumn(3, align='|r|', data='Continua na próxima página'),))
+            with self.create(LongTabu("|X[4,l]|X[6,l]|")) as table_fichas:
+                table_fichas.add_row((MultiColumn(2, align='|r|', data='Continua na próxima página'),))
                 table_fichas.add_hline()
                 table_fichas.end_table_footer()
                 table_fichas.end_table_last_footer()
-        
-                logo_file = os.path.join(os.path.dirname(__file__), 'logo.png')
-                logo = StandAloneGraphic(logo_file, image_options="width=100px")
-        
+                
+                # imagem_cargo = recuperar_imagem(ficha['imagemCargo']) if ficha['imagemCargo'] else ''
+                # cargo = StandAloneGraphic(imagem_cargo,
+                #                           image_options="width=\linewidth, height=\linewidth, keepaspectratio")
+                imagem_logo = os.path.join(os.path.dirname(__file__), 'logo.png')
+                logo = StandAloneGraphic(imagem_logo,
+                                         image_options="width=\linewidth, height=\linewidth, keepaspectratio")
+                
                 table_fichas.add_hline()
-                table_fichas.add_row((MultiRow(6, data=logo), bold('Local/Posto de Trabalho'), ficha['local']))
-                table_fichas.add_hline(start=2)
-                table_fichas.add_row(('', bold('Função'), ficha['cargo']))
-                table_fichas.add_hline(start=2)
-                table_fichas.add_row(('', bold('Cargo'), ficha['cargo']))
-                table_fichas.add_hline(start=2)
-                table_fichas.add_row(('', bold('Quantidade de Trabalhadores'), ficha['qtdTrabalhadores'] ))
-                table_fichas.add_hline(start=2)
-                table_fichas.add_row(('', bold('Descricao da Atividade'), ficha['descricaoAtv']))
+                table_fichas.add_row([logo, ''])
+                table_fichas.add_hline()
+                table_fichas.add_row((bold('Local/Posto de Trabalho'), ficha['local']))
+                table_fichas.add_hline()
+                table_fichas.add_row((bold('Função'), ficha['cargo']))
+                table_fichas.add_hline()
+                table_fichas.add_row((bold('Cargo'), ficha['cargo']))
+                table_fichas.add_hline()
+                table_fichas.add_row((bold('Quantidade de Trabalhadores'), ficha['qtdTrabalhadores']))
+                table_fichas.add_hline()
+                table_fichas.add_row((bold('Descricao da Atividade'), ficha['descricaoAtv']))
                 table_fichas.add_hline()
             if len(ficha['riscosOcupacionais']):
-                with self.create(LongTabu("|X[4,l]|X[6,l]|", to=r'\linewidth')) as table_fichas:
-                    table_fichas.add_row((MultiColumn(2, align='|r|', data='Continua na próxima página'),))
+                # with self.create(LongTabu("|X[4,l]|X[6,l]|", to=r'\linewidth')) as table_fichas:
+                #     table_fichas.add_row((MultiColumn(2, align='|r|', data='Continua na próxima página'),))
+                #     table_fichas.add_hline()
+                #     table_fichas.end_table_footer()
+                #     table_fichas.end_table_last_footer()
+                #     table_fichas.add_hline()
+                table_fichas.add_row((MultiColumn(2, align='|c|', data=bold('Riscos Ocupacionais')),))
+                table_fichas.add_hline()
+                for risOcu in ficha['riscosOcupacionais']:
+                    table_fichas.add_row((MultiColumn(2, align='|c|', data=bold(risOcu['risco'])),))
                     table_fichas.add_hline()
-                    table_fichas.end_table_footer()
-                    table_fichas.end_table_last_footer()
+                    table_fichas.add_row((bold('Agente'), risOcu['agente']))
                     table_fichas.add_hline()
-                    table_fichas.add_row((MultiColumn(2, align='|c|', data=bold('Riscos Ocupacionais')),))
+                    table_fichas.add_row((bold('Fonte Geradora/Trajetória'), risOcu['listaFonteGeradora']))
                     table_fichas.add_hline()
-                    for risOcu in ficha['riscosOcupacionais']:
-                        table_fichas.add_row((MultiColumn(2, align='|c|', data=bold(risOcu['risco'])),))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Agente'), risOcu['agente']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Fonte Geradora/Trajetória'), risOcu['listaFonteGeradora']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Exposição'), risOcu['caracterizacao']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Avaliação Qualitativa'), risOcu['avaliacaoQualitativa']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Avaliação Quantitativa'), risOcu['avaliacaoQuantitativa']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Limite Tolerância'), risOcu['limiteTolerancia']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Dados de comprometimento a saúde'), risOcu['comprometimentoSaude']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Possíveis Danos a Saúde'), risOcu['listaDanosSaude']))
-                        table_fichas.add_hline()
-                        table_fichas.add_row((bold('Medidas de Controle'), risOcu['listaMedidaControle']))
-                        table_fichas.add_hline()
-                
-                    
+                    table_fichas.add_row((bold('Exposição'), risOcu['caracterizacao']))
+                    table_fichas.add_hline()
+                    table_fichas.add_row((bold('Avaliação Qualitativa'), risOcu['avaliacaoQualitativa']))
+                    table_fichas.add_hline()
+                    table_fichas.add_row((bold('Avaliação Quantitativa'), risOcu['avaliacaoQuantitativa']))
+                    table_fichas.add_hline()
+                    table_fichas.add_row((bold('Limite Tolerância'), risOcu['limiteTolerancia']))
+                    table_fichas.add_hline()
+                    table_fichas.add_row((bold('Dados de comprometimento a saúde'), risOcu['comprometimentoSaude']))
+                    table_fichas.add_hline()
+                    table_fichas.add_row((bold('Possíveis Danos a Saúde'), risOcu['listaDanosSaude']))
+                    table_fichas.add_hline()
+                    table_fichas.add_row((bold('Medidas de Controle'), risOcu['listaMedidaControle']))
+                    table_fichas.add_hline()
+    
     def quadro_responsavel(self, profissionais, data_emissao):
         with self.create(LongTabu("|X[l]|X[l]|")) as tabela_resp:
             tabela_resp.add_hline()
@@ -190,11 +197,12 @@ class Ppra(Document):
             tabela_resp.add_hline()
             tabela_resp.add_row((bold('Revisão Programada'), data_emissao))
             tabela_resp.add_hline()
-            
+    
     def quadro_empresa(self, ppra):
         with self.create(Tabu("|X[4,l]|X[6,l]|")) as tabela_empresa:
             tabela_empresa.add_hline()
-            tabela_empresa.add_row((MultiColumn(2, align='|c|', data=bold('COMPROVANTE DE INSCRIÇÃO E SITUAÇÃO CADASTRAL')),))
+            tabela_empresa.add_row(
+                (MultiColumn(2, align='|c|', data=bold('COMPROVANTE DE INSCRIÇÃO E SITUAÇÃO CADASTRAL')),))
             tabela_empresa.add_hline()
             tabela_empresa.add_row((bold('CNPJ'), ppra['CNPJFilial']))
             tabela_empresa.add_hline()
@@ -230,8 +238,25 @@ class Ppra(Document):
             tabela_empresa.add_hline()
             tabela_empresa.add_row((bold('Telefone'), ppra['telefone']))
             tabela_empresa.add_hline()
-            
-            
+    
+    def assinatura_tecnicos(self, profissionais):
+        with self.create(Itemize()) as itemize:
+            itemize.add_item(bold("Elaborado em,"))
+            itemize.append(Command("vfill"))
+            itemize.append(Command("centerline", "DataAtual: 11/12/2018"))
+            itemize.append(Command("vfill"))
+            itemize.add_item(bold("Visto, Revisado e Aprovado em, "))
+            itemize.append(Command("vfill"))
+            with itemize.create(MiniPage(align='c')):
+                itemize.append("Data Ontem: 21/12/2018")
+            itemize.append(Command("vfill"))
+            with itemize.create(MiniPage(align='c')):
+                carimbo = r"".join("-" * 40) + r"\\{}\\{}\\{}".format(profissionais[0]['nome'],
+                                                                      profissionais[0]['titulo'],
+                                                                      profissionais[0]['numConselho'])
+                itemize.append(Command("textsc", NoEscape(carimbo)))
+
+
 if __name__ == '__main__':
     conteudo = open('ex.json').read()
     
@@ -244,7 +269,7 @@ if __name__ == '__main__':
     doc.gera_capa(json_ppra)
     doc.append(NewPage())
     doc.change_page_style("header")
-
+    
     doc.append(Command('tableofcontents'))
     # Call function to add text
     # doc.fill_document()
@@ -253,16 +278,20 @@ if __name__ == '__main__':
     # doc.change_page_style("header")
     for secao in json_ppra['titulosPPRA']:
         # gera titulo pai Secao
+        doc.append(NewPage())
         with doc.create(Section(secao['titulo'])):
             doc.append(secao['descricao'])
             if secao['atividade'] == 'Perfil da Empresa':
                 doc.quadro_empresa(json_ppra)
             if secao['atividade'] == 'Quadro de Funcionarios':
-                doc.quadro_funcionarios(json_ppra['quadroFuncionarios'],json_ppra['qtdMasculino'], json_ppra['qtdFeminino'], json_ppra['numFunc'])
+                doc.quadro_funcionarios(json_ppra['quadroFuncionarios'], json_ppra['qtdMasculino'],
+                                        json_ppra['qtdFeminino'], json_ppra['numFunc'])
             if secao['atividade'] == 'Quadro de EPIs':
                 doc.quadro_epis(json_ppra['fichaExposicao'])
             if secao['atividade'] == 'Responsavel pelo PPRA':
-                doc.quadro_responsavel(json_ppra['profissionais'],json_ppra['dataEmissao'])
+                doc.quadro_responsavel(json_ppra['profissionais'], json_ppra['dataEmissao'])
+            if secao['atividade'] == 'Assinatura dos Técnicos':
+                doc.assinatura_tecnicos(json_ppra['profissionais'])
             for sub_secao in secao['tituloFilho']:
                 # gera titulo filho Subsecao
                 with doc.create(Subsection(sub_secao['titulo'])):
@@ -275,6 +304,6 @@ if __name__ == '__main__':
                         # gera titulo filho Subsubsecao
                         with doc.create(Subsubsection(sub_sub_secao['titulo'])):
                             doc.append(sub_sub_secao['descricao'])
-
+    
     doc.generate_pdf('ppra', clean_tex=False, compiler='pdflatex')
     tex = doc.dumps()  # The document as string in LaTeX syntax
